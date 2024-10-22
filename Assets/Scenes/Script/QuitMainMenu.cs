@@ -12,8 +12,4 @@ public class QuitMainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void BackButton()
-    {
-        SceneManager.LoadSceneAsync(0);
-    }
 }
